@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ios/ch06/statefulwidget/screen/stful_sample.dart';
-import 'package:flutter_ios/ch06/statefulwidget/screen/stless_sample.dart';
+import 'package:flutter_ios/ch07-1/statefulwidget/screen/stful_sample.dart';
+import 'package:flutter_ios/ch07-1/statefulwidget/screen/stless_sample.dart';
 
 void main() {
   runApp(MaterialApp(
