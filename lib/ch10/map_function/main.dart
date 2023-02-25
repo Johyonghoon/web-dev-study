@@ -1,7 +1,7 @@
 void main() {
   final number = 123;
 
-  print(number.toString().split('').map((x) => '$x.jpg').toList());
+  print(number.toString().split('').map((e) => '$e.jpg').toList());
 
   final numbers = [
     123,
@@ -9,8 +9,9 @@ void main() {
     789,
   ];
 
-  print(numbers.map(
-      (x) => x.toString().split('').map((y) => '$y.jpg').toList()).toList());
+  print(
+    numbers.map((e) => e.toString().split('').map((y) => '$y.jpg').toList()).toList(),
+  );
 
   print(numbers.asMap().entries.toList()[0].key);
 }
