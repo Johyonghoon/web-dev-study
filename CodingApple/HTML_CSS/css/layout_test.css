@@ -1,0 +1,49 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+.blog-content{
+    width: 80%;
+    height: 200px;
+    float: left;
+}
+
+.blog-image{
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.blog-profile{
+    width: 50px;
+    float: left;
+}
+
+.blog-name{
+    float: left;
+    padding: 4px;
+}
+
+.blog-post{
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    width: 60px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
