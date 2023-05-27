@@ -61,4 +61,25 @@ a {
     border-radius: 5px;
     font-weight: light;
     margin-left: 390px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.button:focus {
+    background-color: grey;
+}
+
+.button:active {
+    background-color: lightblue;
+}
+
+.input-test {
+    font-size: 20px;
+}
+
+.input-test:focus {
+    border: 1px solid black;
 }
